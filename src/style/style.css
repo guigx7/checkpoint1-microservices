@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 60px;
+  flex-direction: column;
+}
+
+.buttons a {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.buttons a button{
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.form input{
+  margin-left: 20px;
+}
+
+table, th, td {
+  margin-left: 20px;
+  border: 1px solid;
+}
+
+.ex3 h4{
+  margin-left: 20px;
+}
